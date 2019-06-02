@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bobo-mooc-model" />
+        <module name="bobo-mooc-service-api" />
+        <module name="bobo-mooc-common" />
+        <module name="bobo-mooc-utils" />
+        <module name="bobo-mooc-service-manage-cms" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bobo-mooc-common" target="1.8" />
+      <module name="bobo-mooc-model" target="1.8" />
+      <module name="bobo-mooc-parent" target="1.8" />
+      <module name="bobo-mooc-service-api" target="1.8" />
+      <module name="bobo-mooc-service-manage-cms" target="1.8" />
+      <module name="bobo-mooc-utils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bobo-mooc-common" options="-parameters" />
+      <module name="bobo-mooc-model" options="-parameters" />
+      <module name="bobo-mooc-parent" options="" />
+      <module name="bobo-mooc-service-api" options="-parameters" />
+      <module name="bobo-mooc-service-manage-cms" options="-parameters" />
+      <module name="bobo-mooc-utils" options="-parameters" />
+    </option>
+  </component>
+</project>

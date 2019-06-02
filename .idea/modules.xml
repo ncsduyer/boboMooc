@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bobo-mooc-common/bobo-mooc-common.iml" filepath="$PROJECT_DIR$/bobo-mooc-common/bobo-mooc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bobo-mooc-model/bobo-mooc-model.iml" filepath="$PROJECT_DIR$/bobo-mooc-model/bobo-mooc-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bobo-mooc-parent/bobo-mooc-parent.iml" filepath="$PROJECT_DIR$/bobo-mooc-parent/bobo-mooc-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bobo-mooc-service-api/bobo-mooc-service-api.iml" filepath="$PROJECT_DIR$/bobo-mooc-service-api/bobo-mooc-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bobo-mooc-service-manage-cms/bobo-mooc-service-manage-cms.iml" filepath="$PROJECT_DIR$/bobo-mooc-service-manage-cms/bobo-mooc-service-manage-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bobo-mooc-utils/bobo-mooc-utils.iml" filepath="$PROJECT_DIR$/bobo-mooc-utils/bobo-mooc-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/boboMooc.iml" filepath="$PROJECT_DIR$/.idea/boboMooc.iml" />
+    </modules>
+  </component>
+</project>

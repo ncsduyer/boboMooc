@@ -1,0 +1,15 @@
+com\bobo\framework\utils\ZipUtil.class
+com\bobo\framework\utils\GenerateOrderNum.class
+com\bobo\framework\utils\HlsVideoUtil.class
+com\bobo\framework\utils\SnowflakeIdWorker.class
+com\bobo\framework\utils\Mp4VideoUtil.class
+com\bobo\framework\utils\VideoUtil.class
+com\bobo\framework\utils\XcOauth2Util.class
+com\bobo\framework\utils\CookieUtil.class
+com\bobo\framework\utils\MD5Util.class
+com\bobo\framework\utils\BCryptUtil.class
+com\bobo\framework\utils\Snowflake.class
+com\bobo\framework\utils\HttpClient.class
+com\bobo\framework\utils\HttpClient$1.class
+com\bobo\framework\utils\XcOauth2Util$UserJwt.class
+com\bobo\framework\utils\Oauth2Util.class

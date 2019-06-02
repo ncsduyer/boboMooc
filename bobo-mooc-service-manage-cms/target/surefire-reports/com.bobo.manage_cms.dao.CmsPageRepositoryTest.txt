@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.bobo.manage_cms.dao.CmsPageRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 13.207 s <<< FAILURE! - in com.bobo.manage_cms.dao.CmsPageRepositoryTest
+testfindByPageName(com.bobo.manage_cms.dao.CmsPageRepositoryTest)  Time elapsed: 1.436 s  <<< ERROR!
+org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testfindByPageName(CmsPageRepositoryTest.java:66)
+Caused by: com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testfindByPageName(CmsPageRepositoryTest.java:66)
+Caused by: com.mongodb.MongoCommandException: Command failed with error 18 (AuthenticationFailed): 'Authentication failed.' on server localhost:27017. The full response is { "ok" : 0.0, "errmsg" : "Authentication failed.", "code" : 18, "codeName" : "AuthenticationFailed" }
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testfindByPageName(CmsPageRepositoryTest.java:66)
+
+testFindAll(com.bobo.manage_cms.dao.CmsPageRepositoryTest)  Time elapsed: 0.019 s  <<< ERROR!
+org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testFindAll(CmsPageRepositoryTest.java:30)
+Caused by: com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testFindAll(CmsPageRepositoryTest.java:30)
+Caused by: com.mongodb.MongoCommandException: Command failed with error 18 (AuthenticationFailed): 'Authentication failed.' on server localhost:27017. The full response is { "ok" : 0.0, "errmsg" : "Authentication failed.", "code" : 18, "codeName" : "AuthenticationFailed" }
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testFindAll(CmsPageRepositoryTest.java:30)
+
+testFindPage(com.bobo.manage_cms.dao.CmsPageRepositoryTest)  Time elapsed: 0.013 s  <<< ERROR!
+org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testFindPage(CmsPageRepositoryTest.java:42)
+Caused by: com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testFindPage(CmsPageRepositoryTest.java:42)
+Caused by: com.mongodb.MongoCommandException: Command failed with error 18 (AuthenticationFailed): 'Authentication failed.' on server localhost:27017. The full response is { "ok" : 0.0, "errmsg" : "Authentication failed.", "code" : 18, "codeName" : "AuthenticationFailed" }
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testFindPage(CmsPageRepositoryTest.java:42)
+
+testUpdate(com.bobo.manage_cms.dao.CmsPageRepositoryTest)  Time elapsed: 0.007 s  <<< ERROR!
+org.springframework.data.mongodb.UncategorizedMongoDbException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}; nested exception is com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testUpdate(CmsPageRepositoryTest.java:50)
+Caused by: com.mongodb.MongoSecurityException: Exception authenticating MongoCredential{mechanism=SCRAM-SHA-1, userName='root', source='admin', password=<hidden>, mechanismProperties={}}
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testUpdate(CmsPageRepositoryTest.java:50)
+Caused by: com.mongodb.MongoCommandException: Command failed with error 18 (AuthenticationFailed): 'Authentication failed.' on server localhost:27017. The full response is { "ok" : 0.0, "errmsg" : "Authentication failed.", "code" : 18, "codeName" : "AuthenticationFailed" }
+	at com.bobo.manage_cms.dao.CmsPageRepositoryTest.testUpdate(CmsPageRepositoryTest.java:50)
+

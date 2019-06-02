@@ -1,0 +1,4 @@
+com\bobo\manage_cms\service\PageService.class
+com\bobo\manage_cms\ManageCmsApplication.class
+com\bobo\manage_cms\controller\CmsPageController.class
+com\bobo\manage_cms\dao\CmsPageRepository.class
